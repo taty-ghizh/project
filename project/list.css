@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+    margin-right: auto;
+    background: url('./assets/images/basic.jpg');
+}
+
+table tr th,
+table tr td {
+    border: 1px solid #000;
+}

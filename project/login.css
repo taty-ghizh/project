@@ -1,0 +1,15 @@
+.form-control {
+    outline: 0;
+    border-radius: 5px;
+    height: 40px;
+    border: 1px solid #CCC;
+    padding: 0 15px;
+}
+
+form {
+    max-width: 80%;
+    margin: 0 auto;
+}
+input {
+    margin-bottom: 10px;
+}

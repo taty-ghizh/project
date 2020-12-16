@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+<body style="background: #f8f8f8; display: flex; justify-content: center; align-items: center; height: 100vh; flex-direction: column;">
+    <header style="height: 100px;">
+        <h2 style="font-family: Arial, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Authentication</h2>
+    </header>
+    <main style="max-width: 400px;width: 400px; max-height: 350px; padding: 130px 20px; margin: 0 auto; box-shadow: 0px 0px 5px #000; background: #FFF; border-radius: 5px;">
+        <form onSubmit="submitData(this)" action="javascript:;">
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <label style="margin-right: auto;">Username:</label>
+                <div>
+                    <input class="form-control" minlength="6" maxlength="16" type="text" name="username" placeholder="Introdu login" value="dima.rogac">
+                </div>
+            </div>
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <label style="margin-right: auto;">Password:</label>
+                <div>
+                    <input class="form-control" type="password" minlength="6" maxlength="16" name="password" placeholder="Introdu parola" value="">
+                </div>
+            </div>
+            <div style="display: flex; justify-content: center;">
+                <input style="background: #a6c8dc75;
+                box-shadow: 0px 1px 1px #000;
+                outline: 0;
+                border: 0;
+                padding: 5px 15px;" type="submit" value="Login">
+            </div>
+        </form>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
